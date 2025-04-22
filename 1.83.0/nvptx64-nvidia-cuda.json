@@ -1,0 +1,4 @@
+{
+  "triple": "nvptx64-nvidia-cuda",
+  "target_features": []
+}

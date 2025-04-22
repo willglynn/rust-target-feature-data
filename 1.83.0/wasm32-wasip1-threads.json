@@ -1,0 +1,73 @@
+{
+  "triple": "wasm32-wasip1-threads",
+  "target_features": [
+    {
+      "name": "atomics",
+      "implies_features": [],
+      "unstable_feature_gate": "wasm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "bulk-memory",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "exception-handling",
+      "implies_features": [],
+      "unstable_feature_gate": "wasm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "extended-const",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "multivalue",
+      "implies_features": [],
+      "unstable_feature_gate": "wasm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "mutable-globals",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "nontrapping-fptoint",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "reference-types",
+      "implies_features": [],
+      "unstable_feature_gate": "wasm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "relaxed-simd",
+      "implies_features": [
+        "simd128"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sign-ext",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "simd128",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    }
+  ]
+}
