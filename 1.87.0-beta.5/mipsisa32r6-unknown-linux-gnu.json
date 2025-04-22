@@ -1,0 +1,23 @@
+{
+  "triple": "mipsisa32r6-unknown-linux-gnu",
+  "target_features": [
+    {
+      "name": "fp64",
+      "implies_features": [],
+      "unstable_feature_gate": "mips_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "msa",
+      "implies_features": [],
+      "unstable_feature_gate": "mips_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "virt",
+      "implies_features": [],
+      "unstable_feature_gate": "mips_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}

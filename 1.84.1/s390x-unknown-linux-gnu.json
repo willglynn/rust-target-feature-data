@@ -1,0 +1,17 @@
+{
+  "triple": "s390x-unknown-linux-gnu",
+  "target_features": [
+    {
+      "name": "backchain",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "vector",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}

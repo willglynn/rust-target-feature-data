@@ -1,0 +1,23 @@
+{
+  "triple": "sparcv9-sun-solaris",
+  "target_features": [
+    {
+      "name": "leoncasa",
+      "implies_features": [],
+      "unstable_feature_gate": "sparc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8plus",
+      "implies_features": [],
+      "unstable_feature_gate": "sparc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v9",
+      "implies_features": [],
+      "unstable_feature_gate": "sparc_target_feature",
+      "globally_enabled": true
+    }
+  ]
+}

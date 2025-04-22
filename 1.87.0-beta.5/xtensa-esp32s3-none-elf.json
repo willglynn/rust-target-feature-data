@@ -1,0 +1,4 @@
+{
+  "triple": "xtensa-esp32s3-none-elf",
+  "target_features": []
+}

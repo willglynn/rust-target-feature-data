@@ -1,0 +1,4 @@
+{
+  "triple": "xtensa-esp32-espidf",
+  "target_features": []
+}

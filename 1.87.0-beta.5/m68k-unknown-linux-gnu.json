@@ -1,0 +1,66 @@
+{
+  "triple": "m68k-unknown-linux-gnu",
+  "target_features": [
+    {
+      "name": "isa-68000",
+      "implies_features": [],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "isa-68010",
+      "implies_features": [
+        "isa-68000"
+      ],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "isa-68020",
+      "implies_features": [
+        "isa-68010"
+      ],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "isa-68030",
+      "implies_features": [
+        "isa-68020"
+      ],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "isa-68040",
+      "implies_features": [
+        "isa-68030",
+        "isa-68882"
+      ],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "isa-68060",
+      "implies_features": [
+        "isa-68040"
+      ],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "isa-68881",
+      "implies_features": [],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "isa-68882",
+      "implies_features": [
+        "isa-68881"
+      ],
+      "unstable_feature_gate": "m68k_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}

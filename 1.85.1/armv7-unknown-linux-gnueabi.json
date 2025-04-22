@@ -1,0 +1,189 @@
+{
+  "triple": "armv7-unknown-linux-gnueabi",
+  "target_features": [
+    {
+      "name": "aclass",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "aes",
+      "implies_features": [
+        "neon"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "crc",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "d32",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "dotprod",
+      "implies_features": [
+        "neon"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "dsp",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "fp-armv8",
+      "implies_features": [
+        "vfp4"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fpregs",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "i8mm",
+      "implies_features": [
+        "neon"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "mclass",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "neon",
+      "implies_features": [
+        "vfp3"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "rclass",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "sha2",
+      "implies_features": [
+        "neon"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "thumb-mode",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "thumb2",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "trustzone",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v5te",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "v6",
+      "implies_features": [
+        "v5te"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "v6k",
+      "implies_features": [
+        "v6"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "v6t2",
+      "implies_features": [
+        "v6k",
+        "thumb2"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "v7",
+      "implies_features": [
+        "v6t2"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "v8",
+      "implies_features": [
+        "v7"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vfp2",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "vfp3",
+      "implies_features": [
+        "vfp2",
+        "d32"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "vfp4",
+      "implies_features": [
+        "vfp3"
+      ],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "virtualization",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}

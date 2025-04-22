@@ -1,0 +1,65 @@
+{
+  "triple": "loongarch64-unknown-none",
+  "target_features": [
+    {
+      "name": "d",
+      "implies_features": [
+        "f"
+      ],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "f",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "frecipe",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lasx",
+      "implies_features": [
+        "lsx"
+      ],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lbt",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lsx",
+      "implies_features": [
+        "d"
+      ],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lvz",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "relax",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "ual",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": true
+    }
+  ]
+}

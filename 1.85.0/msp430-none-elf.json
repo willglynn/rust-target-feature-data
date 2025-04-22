@@ -1,0 +1,4 @@
+{
+  "triple": "msp430-none-elf",
+  "target_features": []
+}

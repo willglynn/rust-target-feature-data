@@ -1,0 +1,95 @@
+{
+  "triple": "s390x-unknown-linux-musl",
+  "target_features": [
+    {
+      "name": "backchain",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "deflate-conversion",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "enhanced-sort",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "guarded-storage",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "high-word",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "nnp-assist",
+      "implies_features": [
+        "vector"
+      ],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "transactional-execution",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vector",
+      "implies_features": [],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vector-enhancements-1",
+      "implies_features": [
+        "vector"
+      ],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vector-enhancements-2",
+      "implies_features": [
+        "vector-enhancements-1"
+      ],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vector-packed-decimal",
+      "implies_features": [
+        "vector"
+      ],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vector-packed-decimal-enhancement",
+      "implies_features": [
+        "vector-packed-decimal"
+      ],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vector-packed-decimal-enhancement-2",
+      "implies_features": [
+        "vector-packed-decimal-enhancement"
+      ],
+      "unstable_feature_gate": "s390x_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}

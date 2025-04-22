@@ -1,0 +1,95 @@
+{
+  "triple": "loongarch64-unknown-linux-gnu",
+  "target_features": [
+    {
+      "name": "d",
+      "implies_features": [
+        "f"
+      ],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "div32",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "f",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "frecipe",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lam-bh",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lamcas",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lasx",
+      "implies_features": [
+        "lsx"
+      ],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lbt",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "ld-seq-sa",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lsx",
+      "implies_features": [
+        "d"
+      ],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "lvz",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "relax",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "scq",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "ual",
+      "implies_features": [],
+      "unstable_feature_gate": "loongarch_target_feature",
+      "globally_enabled": true
+    }
+  ]
+}
