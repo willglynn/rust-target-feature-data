@@ -1,0 +1,486 @@
+{
+  "triple": "i686-linux-android",
+  "target_features": [
+    {
+      "name": "adx",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "aes",
+      "implies_features": [
+        "sse2"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "amx-bf16",
+      "implies_features": [
+        "amx-tile"
+      ],
+      "unstable_feature_gate": "x86_amx_intrinsics",
+      "globally_enabled": false
+    },
+    {
+      "name": "amx-complex",
+      "implies_features": [
+        "amx-tile"
+      ],
+      "unstable_feature_gate": "x86_amx_intrinsics",
+      "globally_enabled": false
+    },
+    {
+      "name": "amx-fp16",
+      "implies_features": [
+        "amx-tile"
+      ],
+      "unstable_feature_gate": "x86_amx_intrinsics",
+      "globally_enabled": false
+    },
+    {
+      "name": "amx-int8",
+      "implies_features": [
+        "amx-tile"
+      ],
+      "unstable_feature_gate": "x86_amx_intrinsics",
+      "globally_enabled": false
+    },
+    {
+      "name": "amx-tile",
+      "implies_features": [],
+      "unstable_feature_gate": "x86_amx_intrinsics",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx",
+      "implies_features": [
+        "sse4.2"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "avx2",
+      "implies_features": [
+        "avx"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512bf16",
+      "implies_features": [
+        "avx512bw"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512bitalg",
+      "implies_features": [
+        "avx512bw"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512bw",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512cd",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512dq",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512f",
+      "implies_features": [
+        "avx2",
+        "fma",
+        "f16c"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512fp16",
+      "implies_features": [
+        "avx512bw",
+        "avx512vl",
+        "avx512dq"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512ifma",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512vbmi",
+      "implies_features": [
+        "avx512bw"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512vbmi2",
+      "implies_features": [
+        "avx512bw"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512vl",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512vnni",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512vp2intersect",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avx512vpopcntdq",
+      "implies_features": [
+        "avx512f"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avxifma",
+      "implies_features": [
+        "avx2"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avxneconvert",
+      "implies_features": [
+        "avx2"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avxvnni",
+      "implies_features": [
+        "avx2"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avxvnniint16",
+      "implies_features": [
+        "avx2"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "avxvnniint8",
+      "implies_features": [
+        "avx2"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "bmi1",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "bmi2",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "cmpxchg16b",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "ermsb",
+      "implies_features": [],
+      "unstable_feature_gate": "ermsb_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "f16c",
+      "implies_features": [
+        "avx"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "fma",
+      "implies_features": [
+        "avx"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "fxsr",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "gfni",
+      "implies_features": [
+        "sse2"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lahfsahf",
+      "implies_features": [],
+      "unstable_feature_gate": "lahfsahf_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "lzcnt",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "movbe",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "pclmulqdq",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "popcnt",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "prfchw",
+      "implies_features": [],
+      "unstable_feature_gate": "prfchw_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "rdrand",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "rdseed",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "rtm",
+      "implies_features": [],
+      "unstable_feature_gate": "rtm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "sha",
+      "implies_features": [
+        "sse2"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sha512",
+      "implies_features": [
+        "avx2"
+      ],
+      "unstable_feature_gate": "sha512_sm_x86",
+      "globally_enabled": false
+    },
+    {
+      "name": "sm3",
+      "implies_features": [
+        "avx"
+      ],
+      "unstable_feature_gate": "sha512_sm_x86",
+      "globally_enabled": false
+    },
+    {
+      "name": "sm4",
+      "implies_features": [
+        "avx2"
+      ],
+      "unstable_feature_gate": "sha512_sm_x86",
+      "globally_enabled": false
+    },
+    {
+      "name": "sse",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "sse2",
+      "implies_features": [
+        "sse"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "sse3",
+      "implies_features": [
+        "sse2"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "sse4.1",
+      "implies_features": [
+        "ssse3"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sse4.2",
+      "implies_features": [
+        "sse4.1"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sse4a",
+      "implies_features": [
+        "sse3"
+      ],
+      "unstable_feature_gate": "sse4a_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "ssse3",
+      "implies_features": [
+        "sse3"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "tbm",
+      "implies_features": [],
+      "unstable_feature_gate": "tbm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vaes",
+      "implies_features": [
+        "avx2",
+        "aes"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vpclmulqdq",
+      "implies_features": [
+        "avx",
+        "pclmulqdq"
+      ],
+      "unstable_feature_gate": "avx512_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "xop",
+      "implies_features": [
+        "avx",
+        "sse4a"
+      ],
+      "unstable_feature_gate": "xop_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "xsave",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "xsavec",
+      "implies_features": [
+        "xsave"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "xsaveopt",
+      "implies_features": [
+        "xsave"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "xsaves",
+      "implies_features": [
+        "xsave"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    }
+  ]
+}

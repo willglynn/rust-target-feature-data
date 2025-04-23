@@ -1,0 +1,226 @@
+{
+  "triple": "riscv32imac-unknown-none-elf",
+  "target_features": [
+    {
+      "name": "a",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "c",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "d",
+      "implies_features": [
+        "f"
+      ],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "e",
+      "implies_features": [],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "f",
+      "implies_features": [],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "m",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "relax",
+      "implies_features": [],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "unaligned-scalar-mem",
+      "implies_features": [],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v",
+      "implies_features": [],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "zba",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zbb",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zbc",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zbkb",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zbkc",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zbkx",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zbs",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zdinx",
+      "implies_features": [
+        "zfinx"
+      ],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "zfh",
+      "implies_features": [
+        "zfhmin"
+      ],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "zfhmin",
+      "implies_features": [
+        "f"
+      ],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "zfinx",
+      "implies_features": [],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "zhinx",
+      "implies_features": [
+        "zhinxmin"
+      ],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "zhinxmin",
+      "implies_features": [
+        "zfinx"
+      ],
+      "unstable_feature_gate": "riscv_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "zk",
+      "implies_features": [
+        "zkn",
+        "zkr",
+        "zkt"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zkn",
+      "implies_features": [
+        "zbkb",
+        "zbkc",
+        "zbkx",
+        "zkne",
+        "zknd",
+        "zknh"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zknd",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zkne",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zknh",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zkr",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zks",
+      "implies_features": [
+        "zbkb",
+        "zbkc",
+        "zbkx",
+        "zksed",
+        "zksh"
+      ],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zksed",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zksh",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "zkt",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    }
+  ]
+}

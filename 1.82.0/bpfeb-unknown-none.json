@@ -1,0 +1,11 @@
+{
+  "triple": "bpfeb-unknown-none",
+  "target_features": [
+    {
+      "name": "alu32",
+      "implies_features": [],
+      "unstable_feature_gate": "bpf_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}
