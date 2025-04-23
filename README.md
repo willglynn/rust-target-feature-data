@@ -8,8 +8,6 @@ enabling different target features in different versions of Rust.
 
 This crate provides target feature data for all targets covering Rust versions:
 
-* `"1.83.0"`
-* `"1.84.0"` (1.84.1 is identical)
 * `"1.85.0"` (1.85.1 is identical)
 * `"1.86.0"`
 * `"1.87.0"` (from 1.87.0-beta.5)
@@ -23,14 +21,13 @@ this crate obsolete going forward.
 ```rust
 use rust_target_feature_data::find;
 
-let features: Vec<_ > = find("1.83.0", "x86_64-unknown-linux-gnu") ?.collect();
-let pclmulqdq = features.iter().find( | f| f.name == "pclmulqdq").unwrap();
-assert_eq!(pclmulqdq.globally_enabled, false);
-assert_eq!(pclmulqdq.implies_features, [].into());
+let features: Vec<_> = find("1.85.0", "i686-linux-android")?.collect();
+let fxsr = features.iter().find(|f| f.name == "fxsr").unwrap();
+assert_eq!(fxsr.globally_enabled, false);
 
-let features: Vec<_ > = find("1.84.0", "x86_64-unknown-linux-gnu") ?.collect();
-let pclmulqdq = features.iter().find( | f| f.name == "pclmulqdq").unwrap();
-assert_eq!(pclmulqdq.implies_features, ["sse2"].into());
+let features: Vec<_> = find("1.86.0", "i686-linux-android")?.collect();
+let fxsr = features.iter().find(|f| f.name == "fxsr").unwrap();
+assert_eq!(fxsr.globally_enabled, true);
 ```
 
 # Development
@@ -69,3 +66,7 @@ test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 
 The generator tool runs offline, i.e. in development, and its output is committed to this
 repository. Both the `-dev` nor `-gen` crates are purely internal to this workspace.
+
+This crate's repository contains data for earlier Rust versions, but this data is not currently
+required by any user and so is not included in the crate. If you have need for earlier data via
+this crate, please open an issue.

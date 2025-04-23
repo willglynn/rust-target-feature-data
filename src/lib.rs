@@ -8,8 +8,6 @@
 //!
 //! This crate provides target feature data for all targets covering Rust versions:
 //!
-//! * `"1.83.0"`
-//! * `"1.84.0"` (1.84.1 is identical)
 //! * `"1.85.0"` (1.85.1 is identical)
 //! * `"1.86.0"`
 //! * `"1.87.0"` (from 1.87.0-beta.5)
@@ -24,14 +22,13 @@
 //! # fn main() -> Result<(), Box<dyn std::error::Error>> {
 //! use rust_target_feature_data::find;
 //!
-//! let features: Vec<_> = find("1.83.0", "x86_64-unknown-linux-gnu")?.collect();
-//! let pclmulqdq = features.iter().find(|f| f.name == "pclmulqdq").unwrap();
-//! assert_eq!(pclmulqdq.globally_enabled, false);
-//! assert_eq!(pclmulqdq.implies_features, [].into());
+//! let features: Vec<_> = find("1.85.0", "i686-linux-android")?.collect();
+//! let fxsr = features.iter().find(|f| f.name == "fxsr").unwrap();
+//! assert_eq!(fxsr.globally_enabled, false);
 //!
-//! let features: Vec<_> = find("1.84.0", "x86_64-unknown-linux-gnu")?.collect();
-//! let pclmulqdq = features.iter().find(|f| f.name == "pclmulqdq").unwrap();
-//! assert_eq!(pclmulqdq.implies_features, ["sse2"].into());
+//! let features: Vec<_> = find("1.86.0", "i686-linux-android")?.collect();
+//! let fxsr = features.iter().find(|f| f.name == "fxsr").unwrap();
+//! assert_eq!(fxsr.globally_enabled, true);
 //! # Ok(()) }
 //! ```
 
@@ -116,8 +113,8 @@ impl std::fmt::Display for NotFoundError {
 ///
 /// // Different versions return different features
 /// for (version, count) in [
-///     ("1.83.0", 90),
-///     ("1.84.0", 91),
+/// //  ("1.83.0", 90),
+/// //  ("1.84.0", 91),
 ///     ("1.85.0", 92),
 ///     ("1.86.0", 92),
 ///     ("1.87.0", 92),
@@ -128,10 +125,10 @@ impl std::fmt::Display for NotFoundError {
 ///     );
 /// }
 ///
-/// // 1.82.0 data is not included
+/// // 1.84.0 data is not included
 /// assert_eq!(
-///     rust_target_feature_data::find("1.82.0", "x86_64-unknown-linux-gnu").err().unwrap(),
-///     NotFoundError::CompilerNotFound("1.82.0".into())
+///     rust_target_feature_data::find("1.84.0", "x86_64-unknown-linux-gnu").err().unwrap(),
+///     NotFoundError::CompilerNotFound("1.84.0".into())
 /// );
 ///
 /// // i686-unknown-redox became i586-unknown-redox

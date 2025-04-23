@@ -36,8 +36,6 @@ pub enum LoadError {
 
 pub fn load() -> Result<BTreeSet<Compiler>, LoadError> {
     [
-        ("1.83.0", "1.83.0"),
-        ("1.84.0", "1.84.0"),
         ("1.85.0", "1.85.0"),
         ("1.86.0", "1.86.0"),
         ("1.87.0", "1.87.0-beta.5"),
