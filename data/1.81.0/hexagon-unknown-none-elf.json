@@ -1,0 +1,17 @@
+{
+  "triple": "hexagon-unknown-none-elf",
+  "target_features": [
+    {
+      "name": "hvx",
+      "implies_features": [],
+      "unstable_feature_gate": "hexagon_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "hvx-length128b",
+      "implies_features": [],
+      "unstable_feature_gate": "hexagon_target_feature",
+      "globally_enabled": true
+    }
+  ]
+}

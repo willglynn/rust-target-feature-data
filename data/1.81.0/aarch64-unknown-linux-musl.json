@@ -1,0 +1,311 @@
+{
+  "triple": "aarch64-unknown-linux-musl",
+  "target_features": [
+    {
+      "name": "aes",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "bf16",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "bti",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "crc",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "dit",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "dotprod",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "dpb",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "dpb2",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "f32mm",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "f64mm",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "fcma",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "fhm",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "flagm",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "fp16",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "frintts",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "i8mm",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "jsconv",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "lor",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "lse",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "mte",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "neon",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": true
+    },
+    {
+      "name": "paca",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "pacg",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "pan",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "pmuv3",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "rand",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "ras",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "rcpc",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "rcpc2",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "rdm",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sb",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sha2",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sha3",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sm4",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "spe",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "ssbs",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sve",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sve2",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sve2-aes",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sve2-bitperm",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sve2-sha3",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "sve2-sm4",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "tme",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    },
+    {
+      "name": "v8.1a",
+      "implies_features": [],
+      "unstable_feature_gate": "aarch64_ver_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8.2a",
+      "implies_features": [],
+      "unstable_feature_gate": "aarch64_ver_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8.3a",
+      "implies_features": [],
+      "unstable_feature_gate": "aarch64_ver_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8.4a",
+      "implies_features": [],
+      "unstable_feature_gate": "aarch64_ver_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8.5a",
+      "implies_features": [],
+      "unstable_feature_gate": "aarch64_ver_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8.6a",
+      "implies_features": [],
+      "unstable_feature_gate": "aarch64_ver_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8.7a",
+      "implies_features": [],
+      "unstable_feature_gate": "aarch64_ver_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vh",
+      "implies_features": [],
+      "unstable_feature_gate": null,
+      "globally_enabled": false
+    }
+  ]
+}

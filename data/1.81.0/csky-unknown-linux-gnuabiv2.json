@@ -1,0 +1,239 @@
+{
+  "triple": "csky-unknown-linux-gnuabiv2",
+  "target_features": [
+    {
+      "name": "10e60",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "2e3",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "3e3r1",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "3e3r2",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "3e3r3",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "3e7",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "7e10",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "cache",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "doloop",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "dsp1e2",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "dspe60",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "e1",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "e2",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "edsp",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "elrw",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "float1e2",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "float1e3",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "float3e4",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "float7e60",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "floate1",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "hard-tp",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "high-registers",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "hwdiv",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "mp",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "mp1e2",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "nvic",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "trust",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "vdsp2e60f",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vdspv1",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vdspv2",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fdivdu",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fpuv2_df",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fpuv2_sf",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fpuv3_df",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fpuv3_hf",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fpuv3_hi",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fpuv3_sf",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "hard-float",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "hard-float-abi",
+      "implies_features": [],
+      "unstable_feature_gate": "csky_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}

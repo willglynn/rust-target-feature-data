@@ -1,0 +1,4 @@
+{
+  "triple": "avr-unknown-gnu-atmega328",
+  "target_features": []
+}

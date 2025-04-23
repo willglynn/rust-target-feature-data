@@ -1,5 +1,6 @@
 `rustdoc` >= 1.88 outputs target feature information as JSON. Older versions do not, except via backports:
 
+* [1.81.0](https://github.com/willglynn/rust/commits/rustdoc_target_features_backport_v1.81.0/) (no `implied_features`)
 * [1.82.0](https://github.com/willglynn/rust/commits/rustdoc_target_features_backport_v1.82.0/)
 * [1.83.0](https://github.com/willglynn/rust/commits/rustdoc_target_features_backport_v1.83.0/)
 * [1.84.0](https://github.com/willglynn/rust/commits/rustdoc_target_features_backport_v1.84.0/)

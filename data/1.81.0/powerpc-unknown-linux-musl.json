@@ -1,0 +1,47 @@
+{
+  "triple": "powerpc-unknown-linux-musl",
+  "target_features": [
+    {
+      "name": "altivec",
+      "implies_features": [],
+      "unstable_feature_gate": "powerpc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "power10-vector",
+      "implies_features": [],
+      "unstable_feature_gate": "powerpc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "power8-altivec",
+      "implies_features": [],
+      "unstable_feature_gate": "powerpc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "power8-vector",
+      "implies_features": [],
+      "unstable_feature_gate": "powerpc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "power9-altivec",
+      "implies_features": [],
+      "unstable_feature_gate": "powerpc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "power9-vector",
+      "implies_features": [],
+      "unstable_feature_gate": "powerpc_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vsx",
+      "implies_features": [],
+      "unstable_feature_gate": "powerpc_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "triple": "armv5te-none-eabi",
+  "target_features": [
+    {
+      "name": "aclass",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "aes",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "crc",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "d32",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "dotprod",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "dsp",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "fp-armv8",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "i8mm",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "mclass",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "neon",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "rclass",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "sha2",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "thumb-mode",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "thumb2",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "trustzone",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v5te",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": true
+    },
+    {
+      "name": "v6",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v6k",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v6t2",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v7",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "v8",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vfp2",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vfp3",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "vfp4",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    },
+    {
+      "name": "virtualization",
+      "implies_features": [],
+      "unstable_feature_gate": "arm_target_feature",
+      "globally_enabled": false
+    }
+  ]
+}
