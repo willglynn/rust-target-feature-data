@@ -1,0 +1,19 @@
+[package]
+name = "rust-target-feature-data"
+version = "0.1.0"
+edition = "2024"
+authors = ["Will Glynn <will@willglynn.com>"]
+license = "MIT OR Apache-2.0"
+description = "A crate providing historical data about Rust target features"
+repository = "https://github.com/willglynn/rust-target-feature-data"
+include = ["/src"]
+
+[dependencies]
+# Do not add dependencies.
+
+[dev-dependencies]
+rust-target-feature-data-dev = { path = "./rust-target-feature-data-dev" }
+anyhow = "1.0"
+
+[workspace]
+members = ["rust-target-feature-data-dev", "rust-target-feature-data-gen"]
